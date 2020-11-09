@@ -2606,7 +2606,7 @@ input, select, textarea {
 		top: 0;
 		vertical-align: middle;
 		align-items: center;
-		width: 27%;
+		width: 26%;
 	}
 
 		#header > * {
@@ -2654,7 +2654,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .icons {
-		margin: 5em 0 0 0;
+		margin: 1em 0 0 0;
 	}
 
 		#footer .icons a {
