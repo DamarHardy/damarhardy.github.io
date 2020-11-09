@@ -7,6 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+html{
+	scroll-behavior: smooth;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2699,7 +2703,7 @@ input, select, textarea {
 		#main > section {
 			border-top: solid 2px #efefef;
 			margin: 2em 0 0 0;
-			padding: 4em 0 0 0;
+			padding: 2em 0 0 0;
 		}
 
 			#main > section:first-child {
@@ -2716,23 +2720,28 @@ input, select, textarea {
 		width: calc(100% - 27%);
 	}
 		#tab .shadow {
+			margin: 0;
+			padding: 0;
 			overflow: hidden;
 			list-style-type: none;
+			text-align: left;
 			position: relative;
 			right: 0;
 		}
-
-		#tab li {
-			float: left;
+		#tab li a{
 			padding: 8px;
 			color: #1f1815;
 			text-decoration: none;
 			display: block;
-  			text-align: center;
+  			text-align: left;
+		}
+
+		#tab li {
+			float: left;
+			
 		}
 		#tab li a:hover{
 			background-color: #3eb08f;
-			color: #ffffff;
 		}
 		#tab > section {
 			margin: 2em 0 0 0;
